@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="transalator-container">
+        <h1>welcome to text translator</h1>
+        <div class="container">
+          <div id="input-container" class="input-container"> 
+            <div id="selection">
+               <div> Translate to::  <select name="language"class="languages" id="languages" aria-placeholder="select language">
+               </select>  </div> 
+               <div class="input-code">Enter  <strong>code</strong> of language 
+                 <textarea name="" id="input-code" cols="20" rows="1" placeholder="en = english"></textarea>  </div>
+            </div>
+                   <textarea name="input" id="input" cols="30" rows="15" placeholder="Enter text"></textarea>
+                </div>
+            <div  id="output-container" class="output-container">
+         </div>
+ 
+        </div>
+            <div class="button-container"> 
+               <button id="translate" class="translate">Translate</button>
+               <button id="delete-text" class="delete-text">Delete</button>
+          </div>
+          <div>
+            <h3>How to use</h3>
+            <p>To <strong>translate </strong> the language you need to input the <strong>code of the language</strong> 
+                .After that , <strong>enter the text you wish to be translated</strong>  and it will be 
+                <strong>translated to your desired language.</strong> desired language.
+            </p>
+          </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

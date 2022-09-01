@@ -1,0 +1,127 @@
+
+body {
+ display: grid;
+ justify-content: center;
+ background: #2c3e50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+#transalator-container{
+    background: #525252;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3d72b4, #525252);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3d72b4, #525252); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+width: 150vh;
+height: 90vh;
+padding: 10px;
+
+}
+
+.container{
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-around;
+    display: grid;
+    height: auto;
+    grid-template-columns: 45% 45%;
+    
+}
+.input-container{
+    border: black solid 2px;
+    color:white;
+    padding: 3%;
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+    
+}
+#input-code{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#selection{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    
+
+}
+#input{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.output-container{
+    border: black solid 2px;
+    color: rgb(99, 219, 213);
+    padding: 3%;
+    font-style: italic;
+    display: grid;
+    flex-wrap: wrap;
+    background: #9796f0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+}
+span{
+    background-color: red;
+}
+#languages{
+    width: 100px;
+    height: 30px;
+    
+}
+.button-container{
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 30% 30%;
+    gap: 5%
+    
+}
+button{
+    height: 8vh;
+    font-size: 25;
+    border: 0;
+    border-radius:5%;
+}
+.translate{
+    background-color: rgb(24, 168, 204);
+    color:whitesmoke;
+    font-style: italic;
+}
+.translate:hover{
+    background-color: palevioletred;
+}
+.delete-text{
+    background-color: rgb(240, 102, 102);
+    font-style: italic;
+}
+.delete-text:hover{
+    background-color: aliceblue;
+    color: red;
+}
+h1{
+    display: grid;
+    justify-content: center;
+    font-size: 30;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
