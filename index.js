@@ -8,6 +8,7 @@ const options = {
 	headers: {
 	
         //insert you rapid api key here
+        'X-RapidAPI-Key': '68ca2b29famsh3659961ddfd0bc6p13afa2jsn2558945f180c',
 		'X-RapidAPI-Host': 'translef-translator.p.rapidapi.com'
 	}
 };
@@ -49,6 +50,7 @@ fetch('https://translef-translator.p.rapidapi.com/language/list', options)
                 'content-type': 'application/x-www-form-urlencoded',
                 //
                  //insert you rapid api key here
+                 'X-RapidAPI-Key': '68ca2b29famsh3659961ddfd0bc6p13afa2jsn2558945f180c',
                 //
                 'X-RapidAPI-Host': 'translef-translator.p.rapidapi.com'
             },
